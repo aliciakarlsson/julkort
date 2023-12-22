@@ -24,8 +24,11 @@ body {
     width: 80%;
     max-height: 90%;
     aspect-ratio: 3/2;
+    background-color: black;
+
 
     display: grid;
+
     /* grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr; */
     grid-template-areas:
