@@ -2,6 +2,7 @@
   margin: 0;
   overflow: hidden;
 }
+
 .snowflake {
   position: absolute;
   color: #fff;
@@ -12,6 +13,7 @@
   0% {
     transform: translateY(-100vh);
   }
+
   100% {
     transform: translateY(100vh);
   }
