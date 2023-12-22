@@ -46,11 +46,13 @@ body {
     background-image: url("../img/card-bg.png");
     background-size: 100% 100%;;
     display: grid;
-    
-    /* grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-areas:
-        "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+
+    border: none;
+    /* /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
@@ -68,3 +70,11 @@ body {
 
     .back-side {}
 }
+
+
+
+/* #tomten {
+    background-color: antiquewhite;
+    grid-area: "tomte";
+    overflow: hidden;
+} */
