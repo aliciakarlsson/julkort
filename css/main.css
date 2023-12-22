@@ -16,7 +16,9 @@ body {
     border: 2px solid black;
 }
 
-.card-bottom {}
+.card-bottom {
+    background-image: url(../img/card-bg.png);
+}
 
 .card-top {
 
