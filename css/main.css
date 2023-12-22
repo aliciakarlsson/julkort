@@ -64,7 +64,24 @@ body {
     .back-side {}
 }
 
+#blink_text{	
+  animation-name:blink;
+  width:100%;
+  height: 20px;
+  animation-duration:3s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:Infinite;
+  font-family: 'Mountains of Christmas', serif;
+  font-size: 8rem;
+  text-align: center;
+  /* position: absolute; */
+  }
 
+@keyframes blink{
+  0%{color:red;}
+  50%{color:rgb(50, 150, 36);}
+  100%{color:rgb(255, 255, 255);}
+}
 
 /* #tomten {
     background-color: antiquewhite;
