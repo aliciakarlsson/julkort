@@ -107,3 +107,21 @@ body {
   bottom: 15%;
   left: 10px;
 }
+
+/* hovereffekt mus */
+#tomten_img,
+.candle-img {
+    cursor: pointer;
+}
+
+#kol {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: none;
+
+.fire {
+    /* här skriver vi kod för å få de å brinna */
+}
+
