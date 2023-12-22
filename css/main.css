@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/davies-designs-studio-PvGt65_l0FU-unsplash.jpg);
+}
+
+.container{}
+
+.card {
+    border: 2px solid black;
+}
+
+.card-bottom {}
+
+.card-top {
+
+    .front-side {}
+
+    .back-side {}
+}
