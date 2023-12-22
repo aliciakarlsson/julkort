@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 60%;
+  z-index: 99999;
 }
 
 .candle-img {
@@ -99,6 +100,7 @@ body {
   grid-area: tom;
   overflow: hidden;
   position: relative;
+  z-index: 99999;
 }
 
 #tomten_img {
@@ -120,6 +122,7 @@ body {
     top: 25%;
     left: 25%;
     display: none;
+    z-index: 999999;
 
 .fire {
     /* här skriver vi kod för å få de å brinna */
