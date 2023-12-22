@@ -57,10 +57,10 @@ body {
     /* /* grid-template-rows: 1fr 1fr 1fr; */
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    grid-template-areas: 
-        "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
-        "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
-        "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+    grid-template-areas:
+        "... tom tom tom ... ... ... ... ... ... ... ... ... ... ..."
+        "... tom tom tom ... ... ... ... ... ... ... ... ... ... ..."
+        "... tom tom tom ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... can can ... ... ... ..."
         "... ... ... ... ... ... ... ... ... can can ... ... ... ..."
@@ -79,8 +79,16 @@ body {
 
 
 
-/* #tomten {
-    background-color: antiquewhite;
-    grid-area: "tomte";
+#tomten_div {
+    /* background-color: antiquewhite; */
+    grid-area: tom;
     overflow: hidden;
-} */
+    position: relative;
+}
+
+#tomten_img {
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+    left: 10px;
+}
