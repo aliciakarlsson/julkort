@@ -10,14 +10,22 @@ body {
     background-image: url(../img/davies-designs-studio-PvGt65_l0FU-unsplash.jpg);
 }
 
-.container{}
+.container {}
 
 .card {
     border: 2px solid black;
 }
 
+/* .card-bottom {
+    background-image: url("../img/card-bg.png");
+} */
 .card-bottom {
-    background-image: url(../img/card-bg.png);
+    display: grid;
+    grid-template-areas: "... ... ... ... ... ..."
+        "... ... ... ... ... ..."
+        "... ... ... ... ... ..."
+
+    ;
 }
 
 .card-top {
