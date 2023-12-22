@@ -1,0 +1,19 @@
+.card-bottom {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.snowflake {
+  position: absolute;
+  color: #fff;
+  user-select: none;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
