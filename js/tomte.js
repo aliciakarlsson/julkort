@@ -7,7 +7,7 @@ tomte.addEventListener("click", () => {
 
 VAD ÖNSKAR EN SÅN HÄR LITEN POJKE/FLICKA/HEN SIG I JULKLAPP MÅNTRO? ❄️ `);
 
-    alert(" 🎅: Jag har gört att du varit en stygg liten individ på senaste. därför har jag en speciell present till just dig. ✨");
+    alert(" 🎅: Jag har hört att du varit en stygg liten individ på senaste. Därför har jag en speciell present till just dig. ✨");
 
     kol.style.display = "block";
 
