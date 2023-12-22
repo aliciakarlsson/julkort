@@ -33,10 +33,10 @@ body {
     background-size: cover;
     display: grid;
     border: none;
-    /* grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-areas:
-        "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+    /* /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
         "... ... ... ... ... ... ... ... ... ... ... ... ... ... ..."
@@ -54,3 +54,11 @@ body {
 
     .back-side {}
 }
+
+
+
+/* #tomten {
+    background-color: antiquewhite;
+    grid-area: "tomte";
+    overflow: hidden;
+} */
