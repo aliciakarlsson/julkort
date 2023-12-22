@@ -8,27 +8,30 @@
 
 body {
     background-image: url(../img/davies-designs-studio-PvGt65_l0FU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+
 }
 
-.container {}
-
-.card {
-    border: 2px solid black;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .card-bottom {
-    background-image: url("../img/card-bg.png");
-} */
 .card-bottom {
     /* height: 300px; */
     width: 80%;
     max-height: 90%;
     aspect-ratio: 3/2;
-    background-color: black;
-
-
+    box-shadow: 0px 0px 20px 2px;
+    overflow: hidden;
+    background-image: url("../img/card-bg.png");
+    background-size: cover;
     display: grid;
-
+    border: none;
     /* grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr; */
     grid-template-areas:
